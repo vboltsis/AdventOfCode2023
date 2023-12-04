@@ -18,4 +18,4 @@ var day03 = new Day03();
 var day04 = new Day04();
 
 //var result = day04.Part1();
-//var result2 = day04.Part2();
+var result2 = day04.Part2();
