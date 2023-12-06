@@ -29,3 +29,8 @@ var day06 = new Day06();
 
 //var result = day06.Part1();
 //var result2 = day06.Part2();
+
+var day07 = new Day07();
+
+var result = day07.Part1();
+//var result2 = day07.Part2();
