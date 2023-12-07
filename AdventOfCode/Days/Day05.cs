@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace AdventOfCode.Days;
+﻿namespace AdventOfCode.Days;
 
 internal class Day05
 {
@@ -15,7 +13,7 @@ internal class Day05
     {
         var lines = _input.Split(Environment.NewLine).ToList();
         var seeds = lines[0].Split(": ")[1].Split(' ').Select(long.Parse).ToArray();
-        
+
         var seedToSoilMap = ParseLines(lines[3..35]);
         var soilToFertilizerMap = ParseLines(lines[37..66]);
         var fertilizerToWaterMap = ParseLines(lines[68..103]);

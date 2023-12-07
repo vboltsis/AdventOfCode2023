@@ -32,5 +32,10 @@ var day06 = new Day06();
 
 var day07 = new Day07();
 
-var result = day07.Part1();
+//var result = day07.Part1();
 //var result2 = day07.Part2();
+
+var day08 = new Day08();
+
+var result = day08.Part1();
+//var result2 = day08.Part2();

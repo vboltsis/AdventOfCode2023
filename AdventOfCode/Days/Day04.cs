@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace AdventOfCode.Days;
+﻿namespace AdventOfCode.Days;
 
 internal class Day04
 {
