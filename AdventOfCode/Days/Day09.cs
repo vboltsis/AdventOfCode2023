@@ -13,7 +13,7 @@ public class Day09
     {
         var inputs = _input.Split(Environment.NewLine);
 
-        long sum = inputs.Sum(input => FindNextValue(CalculateDifferences(input)));
+        long sum = inputs.Sum(input => FindNextValue(CalculateDifferencesList(input)));
 
         return sum;
     }
@@ -22,7 +22,7 @@ public class Day09
     {
         var inputs = _input.Split(Environment.NewLine);
 
-        long sum = inputs.Sum(input => FindPreviousValue(CalculateDifferences(input)));
+        long sum = inputs.Sum(input => FindPreviousValue(CalculateDifferencesList(input)));
 
         return sum;
     }
@@ -47,7 +47,7 @@ public class Day09
         return differences[0][0];
     }
 
-    private static List<List<long>> CalculateDifferences(string history)
+    private static List<List<long>> CalculateDifferencesList(string history)
     {
         var differences = new List<List<long>>
         {
