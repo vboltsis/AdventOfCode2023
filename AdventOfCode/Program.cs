@@ -42,6 +42,35 @@ var day08 = new Day08();
 
 var day09 = new Day09();
 
-var result = day09.Part1();
-var result2 = day09.Part2();
+//var result = day09.Part1();
+//var result2 = day09.Part2();
 
+var day10 = new Day10();
+
+//var result = day10.Part1();
+//var result2 = day10.Part2();
+
+var day11 = new Day11();
+
+//var result = day11.Part1();
+//var result2 = day11.Part2();
+
+var day12 = new Day12();
+
+//var result = day12.Part1();
+//var result2 = day12.Part2();
+
+var day13 = new Day13();
+
+//var result = day13.Part1();
+//var result2 = day13.Part2();
+
+var day14 = new Day14();
+
+//var result = day14.Part1();
+//var result2 = day14.Part2();
+
+var day15 = new Day15();
+
+//var result = day15.Part1();
+//var result2 = day15.Part2();
