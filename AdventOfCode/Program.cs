@@ -72,5 +72,5 @@ var day14 = new Day14();
 
 var day15 = new Day15();
 
-//var result = day15.Part1();
+var result = day15.Part1();
 //var result2 = day15.Part2();

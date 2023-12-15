@@ -16,10 +16,33 @@ public class Day15
 
     public long Part1()
     {
-        var inputs = _input.Split(Environment.NewLine);
-        var sum = 0;
+        var line = _input.Split(Environment.NewLine);
+        long sum = 0;
+
+        var sequences = line[0].Split(',');
+
+        foreach (var sequence in sequences)
+        {
+            sum += CalculateSum(sequence);
+        }
 
         return sum;
+    }
+
+    public long CalculateSum(string input)
+    {
+        long currentValue = 0;
+
+        foreach (var character in input)
+        {
+            int asciiValue = (int)character;
+            currentValue += asciiValue;
+            currentValue *= 17;
+            currentValue %= 256;
+        }
+
+        return currentValue;
+        
     }
 
     public long Part2()
